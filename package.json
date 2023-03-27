@@ -2,8 +2,8 @@
   "name": "mtp_slides",
   "private": true,
   "scripts": {
-    "build": "slidev build",
     "dev": "slidev --open",
+    "build": "slidev build",
     "export": "slidev export"
   },
   "dependencies": {
