@@ -9,6 +9,29 @@ const props = defineProps<Props>()
 </script>
 
 <template>
+    <div v-if="props.info === 'microsoft'">
+        <h1>Microsoft</h1>
+        <ul>
+            <li>Dynamics 365: Agilizar processo de vendas;</li>
+            <li>Teams: Comunicação com clientes;</li>
+        </ul>
+    </div>
+    <div v-if="props.info === 'atlassian'">
+        <h1>Atlassian</h1>
+        <ul>
+            <li>Jira: Equipes e funcionários podem receber notificações de incidentes e problemas em tempo real;</li>
+            <li>Trello: Notificações de atividades no Trello;</li>
+            <li>Confluence: Compartilhar arquivos, ideias e feedbacks. Monitorar progresso de projetos, definir tarefas e delegar responsabilidades, tudo em um só lugar;</li>
+        </ul>
+    </div>
+    <div v-if="props.info === 'crm'">
+        <h1>CRM</h1>
+        <ul>
+            <li>Acesso direto aos clientes: A empresa pode se comunicar diretamente com seus clientes por meio do aplicativo mais popular do mundo;</li>
+            <li>Automatização de comunicações: Notificações, confirmações de agendamento, atualizações de status, entre outras;</li>
+            <li>Aumento da conversão de vendas: Canal de vendas mais rápido e conveniente;</li>
+        </ul>
+    </div>
     <div v-if="props.info === 'rh'">
         <h1>RH e DP</h1>
         <p>Automatizar comunicação com candidatos e funcionários:</p>

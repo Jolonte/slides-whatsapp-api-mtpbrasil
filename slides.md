@@ -80,8 +80,26 @@ CLIENT.messages
 ```
 
 ---
+layout: two-cols
+---
 
 # Integração com plataformas SaaS
+
+<script setup lang="ts">
+  import { ref } from 'vue';
+  
+  const TOOL = ref('')
+
+  function changeTool(value) {
+    TOOL.value = value
+  }
+</script>
+
+<Plataforms @info="changeTool" />
+
+::right::
+
+<Benefits :info="TOOL" />
 
 <!-- animações -->
 
@@ -98,7 +116,6 @@ layout: two-cols
 
   function changeTeam(value) {
     TEAM.value = value
-    console.log(TEAM.value)
   }
 </script>
 
