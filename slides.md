@@ -50,3 +50,13 @@ title: Welcome to Slidev
 </div>
 
 ---
+layout: center
+---
+
+# Preço
+#### Uma conversa é uma sessão de 24 horas em que a empresa e o usuário podem trocar quantas mensagens quiserem. Existem dois tipos de conversa:
+
+<Counter :value="0.0293" message="Conversas iniciadas pelo usuário" />
+<Counter :value="0.2615" message="Conversas iniciadas pela empresa" />
+
+---
