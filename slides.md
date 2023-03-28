@@ -60,3 +60,21 @@ layout: center
 <Counter :value="0.2615" message="Conversas iniciadas pela empresa" />
 
 ---
+
+# Como a API é integrada
+### Exemplo em um código Node.js usando o Twilio
+
+```ts {all|1|2|3|5-12|all}
+const ACCOUNT_SID = 'SUA_ACCOUNT_SID';
+const AUTH_TOKEN = 'SEU_AUTH_TOKEN';
+const CLIENT = require('twilio')(ACCOUNT_SID, AUTH_TOKEN);
+
+CLIENT.messages
+  .create({
+     from: 'whatsapp:+14155238886', // substituir pelo número do Twilio WhatsApp Sandbox
+     body: 'Olá, esta é uma mensagem enviada via WhatsApp Business API!',
+     to: 'whatsapp:+55SEU_NUMERO_DE_TELEFONE'
+   })
+  .then(message => console.log(message.sid))
+  .catch(err => console.log(err));
+```

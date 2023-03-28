@@ -20,7 +20,6 @@ function removeChat(propsPrice: number): void {
     CHAT.value--
     CHAT_PRICE.value-=propsPrice
 }
-
 </script>
 
 <template>
