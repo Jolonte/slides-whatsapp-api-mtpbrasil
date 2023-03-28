@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: 'conver_one.jpg'
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -18,3 +18,5 @@ title: Welcome to Slidev
 ## Eficiência, sucesso, e produtividade ágil.
 
 <!-- Slide introdutório -->
+
+
