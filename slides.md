@@ -64,7 +64,7 @@ layout: center
 # Como a API é integrada
 ### Exemplo em um código Node.js usando o Twilio
 
-```ts {all|1|2|3|5-12|all}
+```js {all|1|2|3|5-12|all}
 const ACCOUNT_SID = 'SUA_ACCOUNT_SID';
 const AUTH_TOKEN = 'SEU_AUTH_TOKEN';
 const CLIENT = require('twilio')(ACCOUNT_SID, AUTH_TOKEN);
@@ -78,3 +78,48 @@ CLIENT.messages
   .then(message => console.log(message.sid))
   .catch(err => console.log(err));
 ```
+
+---
+
+# Integração com plataformas SaaS
+
+<!-- animações -->
+
+---
+layout: two-cols
+---
+
+# Benefícios para o Staff
+
+<script setup lang="ts">
+  import { ref } from 'vue';
+  
+  const TEAM = ref('')
+
+  function changeTeam(value) {
+    TEAM.value = value
+    console.log(TEAM.value)
+  }
+</script>
+
+<Teams @info="changeTeam" />
+
+::right::
+
+<Benefits :info="TEAM" />
+
+---
+
+# Empresas que usam o Whatsapp Business API
+
+---
+
+# Dúvidas
+
+---
+
+# Conclusão
+
+---
+
+# Referências
