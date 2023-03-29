@@ -79,6 +79,10 @@ CLIENT.messages
   .catch(err => console.log(err));
 ```
 
+<!--
+
+-->
+
 ---
 layout: two-cols
 ---
@@ -126,8 +130,12 @@ layout: two-cols
 <Benefits :info="TEAM" />
 
 ---
+layout: center
+---
 
 # Empresas que usam o Whatsapp Business API
+
+<Image />
 
 ---
 
