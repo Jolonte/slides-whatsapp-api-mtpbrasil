@@ -10,7 +10,7 @@ drawings:
   persist: false
 transition: slide-left
 css: unocss
-title: Welcome to Slidev
+title: Whatsapp Business API
 ---
 
 # Whatsapp Business API
@@ -22,6 +22,8 @@ title: Welcome to Slidev
 ---
 
 # Diferenças entre
+
+[Referências](https://www.suri.ai/blog/diferenca-whatsapp-business-e-api).
 
 <div class="flex pt-2">
 
@@ -46,7 +48,6 @@ title: Welcome to Slidev
       <p>Notificações, chatbots e múltiplos números.</p>
     </div>
   </div>
-
 </div>
 
 ---
@@ -54,6 +55,8 @@ layout: center
 ---
 
 # Preço
+[Referências](https://sleekflow.io/pt-br/whatsapp-pricing-calculator).
+
 #### Uma conversa é uma sessão de 24 horas em que a empresa e o usuário podem trocar quantas mensagens quiserem. Existem dois tipos de conversa:
 
 <Counter :value="0.0293" message="Conversas iniciadas pelo usuário" />
@@ -62,6 +65,7 @@ layout: center
 ---
 
 # Como a API é integrada
+[Referências](https://www.twilio.com/pt-br/docs/whatsapp/quickstart/node).
 ### Exemplo em um código Node.js usando o Twilio
 
 ```js {all|1|2|3|5-12|all}
@@ -79,15 +83,11 @@ CLIENT.messages
   .catch(err => console.log(err));
 ```
 
-<!--
-
--->
-
 ---
 layout: two-cols
 ---
-
 # Integração com plataformas SaaS
+[Referências](https://www.twilio.com/pt-br/docs/whatsapp/quickstart/node).
 
 <script setup lang="ts">
   import { ref } from 'vue';
@@ -134,17 +134,17 @@ layout: center
 ---
 
 # Empresas que usam o Whatsapp Business API
+[Referências](https://www.take.net/blog/whatsapp/whatsapp-business-api/).
 
 <Image />
 
 ---
 
-# Dúvidas
-
----
-
 # Conclusão
 
----
-
-# Referências
+- Melhorar a experiência do cliente;
+- Aumentar a produtividade da equipe;
+- Reduzir os custos operacionais;
+- Ampliar o alcance e a visibilidade da marca;
+- Fácil implementação;
+- Uso interno no STAFF;
