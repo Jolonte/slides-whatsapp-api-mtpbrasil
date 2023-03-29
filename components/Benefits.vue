@@ -33,7 +33,7 @@ const props = defineProps<Props>()
         </ul>
     </div>
     <div v-if="props.info === 'rh'">
-        <h1>RH e DP</h1>
+        <h1>Operações, RH e DP</h1>
         <p>Automatizar comunicação com candidatos e funcionários:</p>
         <ul>
             <li>Notificar sobre oportunidades de emprego;</li>

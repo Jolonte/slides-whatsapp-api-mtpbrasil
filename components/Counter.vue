@@ -25,8 +25,8 @@ function removeChat(propsPrice: number): void {
 <template>
     <div class="flex flex-col text-center my-4">
         <div class="flex justify-center gap-4">
-            <p>{{ props.message }}: {{ CHAT }}</p>
-            <p>Preço p/ conversa: R$ {{ CHAT_PRICE.toFixed(2) }}</p>
+            <p>{{ props.message }}: {{ Math.max(0, CHAT) }}</p>
+            <p>Preço p/ conversa: R$ {{ Math.max(0, CHAT_PRICE.toFixed(2)) }}</p>
         </div>
         <div class="flex justify-center gap-2">
             <button @click="removeChat(props.value)">-</button>
