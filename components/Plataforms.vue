@@ -7,8 +7,8 @@ function buttonClick(tool: string) {
 </script>
 
 <template>
-    <div class="flex h-full items-center">
-        <div class="grid gap-4 grid-cols-2 grid-rows-3">
+    <div class="flex h-full">
+        <div class="grid gap-y-0 gap-x-10 grid-cols-2 grid-rows-3">
             <div @click="buttonClick('microsoft')" class="flex justify-center items-center w-40 h-40 rounded-2xl hover:bg-green-400 hover:cursor-pointer bg-green-500">
                 <mdi-microsoft class="w-20 h-20 text-white" />
             </div>
