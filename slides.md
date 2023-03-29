@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: seriph
 background: 'conver_one.jpg'
 class: text-center
 highlighter: shiki
@@ -19,6 +19,8 @@ title: Whatsapp Business API
 
 <!-- Slide introdutório -->
 
+---
+transition: fade-out
 ---
 
 # Diferenças entre
@@ -85,7 +87,9 @@ CLIENT.messages
 
 ---
 layout: two-cols
+transition: slide-up
 ---
+
 # Integração com plataformas SaaS
 [Referências](https://www.twilio.com/pt-br/docs/whatsapp/quickstart/node).
 
@@ -131,6 +135,7 @@ layout: two-cols
 
 ---
 layout: center
+transition: fade-out
 ---
 
 # Empresas que usam o Whatsapp Business API
@@ -138,6 +143,8 @@ layout: center
 
 <Image />
 
+---
+transition: fade-out
 ---
 
 # Conclusão
